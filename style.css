@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("stripes_light.png")
+}
+
+img {
+    float: left;
+    padding: 10px;
+}
+h1{
+    margin-right: 30px;
+    color: rgb(177, 63, 2);
+}
+
+p.big {
+    line-height: 2.0;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    position: 40px;
+    padding: 10px;
+}
+div.absolute {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    width: 205px;
+    height: 68px;
+    left: 110px;
+    background-color: rgb(177, 63, 28);
+}
+
+ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: lightgrey;
+}
+
+li {
+    float: right;
+}
+
+li a {  
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    left: -200px;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 850px;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+}
+
+.column {
+    float: auto;
+    top: 20px;
+    width: 730px;
+    margin: 80px;
+    
+}
+.footer {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(177, 63, 28);
